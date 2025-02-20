@@ -87,7 +87,7 @@ int main()
     close(socketfd);
 
     return EXIT_SUCCESS;
-
+}
 void print_info(struct addrinfo *getInfoResultPointer) {
     while (getInfoResultPointer != NULL) {
         printf("Address information - flags: %d\n", getInfoResultPointer->ai_flags);
